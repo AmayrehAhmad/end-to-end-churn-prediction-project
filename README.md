@@ -23,14 +23,14 @@ Clone the repository
 ```bash
 https://github.com/AmayrehAhmad/end-to-end-churn-prediction-project.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a python virtual envirunment (you need to have python 3.8 or later installed on your device first)
 
 ```bash
-conda create -n mlproj python=3.8 -y
+python -m venv myvenv
 ```
 
 ```bash
-conda activate mlproj
+myvenv\Scripts\activate
 ```
 
 
@@ -47,5 +47,5 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up your local host and port
 ```
