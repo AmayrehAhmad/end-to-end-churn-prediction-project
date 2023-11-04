@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Web App</title>
+        <title>Prediction</title>
         <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -35,126 +35,19 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('static/assets/img/customer_churn.jpeg')">
+        <header class="masthead" style="background-image: url('static/assets/img/wine.gif')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Customer Churn Prediction</h1>
-                            <span class="subheading">Web App to predict customers churn</span>
+                            <h1>customer will churn?</h1>
+                             <h1>{{prediction}}</h1>
+                            <span class="subheading"></span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
-
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-
-           <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Form-v9 by Colorlib</title>
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="static/css2/nunito-font.css">
-	<!-- Main Style Css -->
-    <link rel="stylesheet" href="static/css2/style.css"/>
-</head>
-<body class="form-v9">
-	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/customer_churn2.jpg')">
-			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
-				<div class="form-row-total">
-
-					<div class="form-row">
-                        <label for="gender"> Gender:</label>
-						<input type="text" name="gender" id="gender" class="input-text" placeholder="Male / Female" required>
-					</div>
-
-					<div class="form-row">
-                        <label for="SeniorCitizen"> Is SeniorCitizen:</label>
-						<input type="text" name="SeniorCitizen" id="SeniorCitizen" class="input-text" placeholder="0 / 1" required>
-					</div>
-
-				</div>
-
-
-				<div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="Partner"> Has Partner:</label>
-						<input type="text" name="Partner" id="Partner" class="input-text" placeholder="Yes / No" required>
-					</div>
-
-
-                    <div class="form-row">
-                        <label for="Dependents"> Has Dependents:</label>
-						<input type="text" name="Dependents" id="Dependents" class="input-text" placeholder="Yes / No" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="Tenure"> Tenure:</label>
-						<input type="text" name="Tenure" id="Tenure" class="input-text" placeholder="tenure (number of months)" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="PhoneService"> Has PhoneService:</label>
-						<input type="text" name="PhoneService" id="PhoneService" class="input-text" placeholder="Yes / No" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="MultipleLines"> Has MultipleLines:</label>
-						<input type="text" name="MultipleLines" id="MultipleLines" class="input-text" placeholder="Yes / No" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="PaperlessBilling"> Has PaperlessBilling:</label>
-						<input type="text" name="PaperlessBilling" id="PaperlessBilling" class="input-text" placeholder="Yes / No" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                     <div class="form-row">
-                        <label for="MonthlyCharges"> MonthlyCharges:</label>
-						<input type="text" name="MonthlyCharges" id="MonthlyCharges" class="input-text" placeholder="ex: 32" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="TotalCharges"> TotalCharges:</label>
-						<input type="text" name="TotalCharges" id="TotalCharges" class="input-text" placeholder="ex: 134" required>
-					</div>
-
-				</div>
-
-
-				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
-				</div>
-			</form>
-		</div>
-	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html>
-
-        </div>
 
 
         <!-- Footer-->
@@ -164,7 +57,7 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/ahmad-amayreh/">
+                                <a href=".">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -180,7 +73,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://github.com/AmayrehAhmad">
+                                <a href=".">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
