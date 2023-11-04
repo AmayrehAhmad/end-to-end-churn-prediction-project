@@ -1,0 +1,63 @@
+COLUMNS:
+  customerID: str
+  gender: str
+  SeniorCitizen: int64
+  Partner: str
+  Dependents: str
+  tenure: int64
+  PhoneService: str
+  MultipleLines: str
+  InternetService: str
+  OnlineSecurity: str
+  OnlineBackup: str
+  DeviceProtection: str
+  TechSupport: str
+  StreamingTV: str
+  StreamingMovies: str
+  Contract: str
+  PaperlessBilling: str
+  PaymentMethod: str
+  MonthlyCharges: float64
+  TotalCharges: float64
+  Churn: int
+
+# columns to be excluded from training features
+Exclude_Columns:
+  col1: customerID
+  col2: OnlineSecurity
+  col3: PhoneService
+  col4: StreamingTV
+  col5: OnlineBackup
+  col6: DeviceProtection
+  col7: TechSupport
+  col8: StreamingMovies
+  col9: Contract
+  col10: InternetService
+
+
+Use_Columns:
+    col1: Dependents
+    col2: MonthlyCharges
+    col3: PaperlessBilling
+    col4: PaymentMethod
+    col5: SeniorCitizen
+    col6: TotalCharges
+    col7: MultipleLines
+    col8: gender
+    col9: Churn
+    col10: tenure
+    col11: Partner
+
+# specify the non numeric columns to handle them
+Types:
+  binary: [gender, Partner, Dependents, PhoneService, PaperlessBilling]
+  categorical: [MultipleLines, InternetService,OnlineSecurity,OnlineBackup,
+    DeviceProtection,TechSupport, StreamingTV, StreamingMovies, Contract, PaymentMethod]
+
+
+TARGET_COLUMN:
+  name: Churn
+
+LABELS:
+  'Yes': 1
+  'No': 0

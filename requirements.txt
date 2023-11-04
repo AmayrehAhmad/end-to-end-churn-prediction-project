@@ -9,6 +9,7 @@ pyYAML
 tqdm
 ensure==1.0.2
 joblib
+lightgbm==4.1.0
 types-PyYAML
 Flask
 Flask-Cors
