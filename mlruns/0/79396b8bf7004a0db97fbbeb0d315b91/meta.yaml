@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/end-to-end-churn-prediction-project/mlruns/0/79396b8bf7004a0db97fbbeb0d315b91/artifacts
+end_time: 1699083363931
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79396b8bf7004a0db97fbbeb0d315b91
+run_name: honorable-wasp-104
+run_uuid: 79396b8bf7004a0db97fbbeb0d315b91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699083357996
+status: 3
+tags: []
+user_id: user

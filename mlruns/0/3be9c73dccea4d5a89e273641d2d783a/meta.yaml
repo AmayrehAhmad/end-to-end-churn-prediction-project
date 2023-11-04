@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/end-to-end-churn-prediction-project/mlruns/0/3be9c73dccea4d5a89e273641d2d783a/artifacts
+end_time: 1699110472864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3be9c73dccea4d5a89e273641d2d783a
+run_name: efficient-grouse-289
+run_uuid: 3be9c73dccea4d5a89e273641d2d783a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699110466573
+status: 3
+tags: []
+user_id: user
